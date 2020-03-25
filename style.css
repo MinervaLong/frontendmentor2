@@ -38,6 +38,10 @@ body {
     line-height: 1.7;
 }
 
+.lineH2 {
+    line-height: 1.6;
+}
+
 .h4size {
     font-weight:700;
     font-size: 1.2rem;
