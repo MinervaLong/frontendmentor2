@@ -69,3 +69,8 @@ body {
     background-color:hsl(180, 44.9%, 58%);
 }
 
+.divsCont {
+    padding: 5%;
+    text-align: left;
+}
+
