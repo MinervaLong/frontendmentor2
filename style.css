@@ -77,3 +77,13 @@ body {
 .month {
     display:flex;
 }
+
+.month > h2 {
+    margin-right: 10px;
+}
+
+.month >h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
