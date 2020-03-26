@@ -51,6 +51,12 @@ body {
 
 /*Block Elements*/
 
+.container {
+    margin: 16% 8% 16% 8%;
+    box-shadow:0px -4px 15px 4px rgba(178, 178, 178, 0.75);
+    display: grid;
+}
+
 .bgWhite {
     background-color: #FFF;
 }
