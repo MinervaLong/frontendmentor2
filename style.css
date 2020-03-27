@@ -87,3 +87,10 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    padding: 2% 5% 2% 5%;
+    margin:auto;
+}
