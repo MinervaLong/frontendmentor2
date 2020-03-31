@@ -19,14 +19,12 @@ body {
 
 .t1Div1 {
     color:hsl(179, 62%, 43%);
-    
-    
 }
 
 .t2Div1 {
     color:hsl(71, 73%, 54%);
     font-weight:700;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .textDiv1 {
@@ -45,9 +43,13 @@ body {
     line-height: 1.6;
 }
 
-.h4size {
+.container >h4 {
+    font-size: 1.1rem;
     font-weight:700;
-    font-size: 1.2rem;
+}
+
+.textSize {
+    font-size: 0.85rem;
 }
 
 .whiteSpace {
@@ -58,6 +60,7 @@ body {
     color:hsl(180, 44.9%, 58%);
     vertical-align: -30%;
 }
+
 
 /*Block Elements*/
 
@@ -109,10 +112,6 @@ body {
     font-weight: bold;
     margin-top: 6%;
 }
-
-/*.border {
-    border:1px solid black;
-}*/
 
 .space {
     margin-bottom: 7%;
