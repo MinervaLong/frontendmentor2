@@ -94,3 +94,7 @@ body {
 .border {
     border:1px solid black;
 }
+
+.space {
+    white-space: pre-line;
+}
