@@ -56,7 +56,7 @@ body {
 
 .blueLetter {
     color:hsl(180, 44.9%, 58%);
-    vertical-align: middle;
+    vertical-align: -30%;
 }
 
 /*Block Elements*/
@@ -90,6 +90,7 @@ body {
 
 .month > h2 {
     margin-right: 10px;
+    font-size:1.7rem;
 }
 
 
@@ -102,9 +103,9 @@ body {
      
 }
 
-/*.border {
+.border {
     border:1px solid black;
-}*/
+}
 
 .space {
     margin-bottom: 7%;
