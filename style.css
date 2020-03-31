@@ -79,7 +79,7 @@ body {
 }
 
 .divsCont {
-    padding: 3% 5% 5% 8%;
+    padding: 7% 5% 7% 8%;
     
 }
 
@@ -101,9 +101,9 @@ body {
      
 }
 
-.border {
+/*.border {
     border:1px solid black;
-}
+}*/
 
 .space {
     margin-bottom: 5%;
