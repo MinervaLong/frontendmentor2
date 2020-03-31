@@ -120,3 +120,29 @@ body {
 .space2 {
     margin-bottom: 3%;
 }
+
+/*Media Queries*/
+
+@media only screen and (min-width: 500px) {
+
+    .cont1 {
+        grid-area: header;
+    }
+    .cont2 {
+        grid-area: main;
+    }
+
+    .cont3 {
+        grid-area:sidebar ; 
+    }
+    .container {
+        display:grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header header"
+        "main main sidebar sidebar"
+        ;
+    }
+
+}
