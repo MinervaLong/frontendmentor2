@@ -50,6 +50,15 @@ body {
     font-size: 1.2rem;
 }
 
+.whiteSpace {
+    white-space: pre-line;
+}
+
+.blueLetter {
+    color:hsl(180, 44.9%, 58%);
+    vertical-align: -30%;
+}
+
 /*Block Elements*/
 
 .container {
@@ -71,8 +80,8 @@ body {
 }
 
 .divsCont {
-    padding: 3% 5% 5% 8%;
-    text-align: left;
+    padding: 7% 5% 7% 8%;
+    
 }
 
 .month {
@@ -81,6 +90,7 @@ body {
 
 .month > h2 {
     margin-right: 10px;
+    font-size:1.7rem;
 }
 
 
@@ -89,6 +99,7 @@ body {
     border:none;
     border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%; ;
     padding: 2% 30% 2% 30%;
+    text-align: center;
      
 }
 
@@ -96,10 +107,10 @@ body {
     border:1px solid black;
 }
 
-.whiteSpace {
-    white-space: pre-line;
+.space {
+    margin-bottom: 7%;
 }
 
-.blueLetter {
-    color:hsl(180, 44.9%, 58%);
+.space2 {
+    margin-bottom: 3%;
 }
