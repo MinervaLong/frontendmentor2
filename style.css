@@ -98,3 +98,7 @@ body {
 .whiteSpace {
     white-space: pre-line;
 }
+
+.blueLetter {
+    color:hsl(180, 44.9%, 58%);
+}
