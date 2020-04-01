@@ -123,11 +123,15 @@ body {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
+
+    body {
+        margin: 0% 25% 0% 25%;
+    }
 
     .container {
         display:grid;
-        grid-template-rows:100px 100px;
+        grid-template-rows:100% 100%;
     }
 
     .cont1 {
@@ -146,3 +150,5 @@ body {
     }
 
 }
+
+@media only screen and (min-width: 600px) {...}
